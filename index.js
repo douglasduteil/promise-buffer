@@ -55,7 +55,7 @@ function registerLaterRun (state) {
 }
 
 function processBuffer (state) {
-  const chainedPromises = state.buffer.reduce(function (latestPromise, promiseTorun) {
+  var chainedPromises = state.buffer.reduce(function (latestPromise, promiseTorun) {
     return latestPromise.then(promiseTorun)
   }, Promise.resolve())
 
