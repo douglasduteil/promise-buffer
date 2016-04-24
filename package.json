@@ -1,6 +1,6 @@
 {
   "name": "promise-buffer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Buffers promises and run them in order on the next tick",
   "main": "index.js",
   "directories": {
