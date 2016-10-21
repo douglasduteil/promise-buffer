@@ -27,6 +27,9 @@
     "url": "git+https://github.com/douglasduteil/promise-buffer.git"
   },
   "keywords": [],
+  "greenkeeper": {
+    "branchPrefix": "chore-pkg-greenkeeper-"
+  },
   "author": {
     "name": "Douglas Duteil",
     "email": "douglasduteil@gmail.com"
